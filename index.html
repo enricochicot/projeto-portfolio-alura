@@ -1,0 +1,44 @@
+<!DOCTYPE html> <!--Sempre obrigatório inserir-lo-->
+<html lang="pt-br"> <!--Define a linguagem padrão do navegador-->
+<head><!--Cabeça do site-->
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><!--Compativel com navegadores desatualizados-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title> <!--Titulo colocado sobre as abas do site-->
+    <link rel="stylesheet" href="/styles/style.css"> <!--Atrelação do arquivo estilizado CSS, class são usados como indicativo do que será editado no CSS-->
+</head>
+<body> <!--Corpo do site-->
+    <header class="cabecalho"><!--Cabeçalho-->
+      <nav class="cabecalho__menu"><!--Seram inseridos os links de navegação no cabeçalho-->
+          <a class="cabecalho__menu___link" href="index.html">Home</a> <!--Tag ancôra usada como link direcional-->
+          <a class="cabecalho__menu___link"href="about.html">Sobre mim</a>
+          <a class="cabecalho__menu___link"href="curriculum.html">Curriculo</a>
+      </nav>
+    </header>
+    <main class="apresentacao"><!--Todo conteúdo do site deve ser colocado aqui-->
+        <section class="apresentacao__conteudo"><!--Section é uma seção especificada pelo dev no site-->
+            <h1 class="apresentacao__conteudo__titulo">Eleve seu negócio digital a outro nível<!--Primeira linha ela é um destaque no site-->
+                <strong class="titulo-destaque">com um Front-end de qualidade!<!--strong usado para sinalizar mudança de cor naquela respectiva parte da frase-->
+                </strong></h1>
+                <p class="apresentacao__conteudo__texto">Olá! Sou Joana Santos, desenvolvedora 
+                Front-end com especialidade em React, HTML e   <!--Parágrafo que obtém as informações que queremos inserir no site-->
+                CSS. Ajudo pequenos negócios e designers a 
+                colocarem em prática boas ideias. Vamos 
+                conversar?</p>
+                <div class="apresentacao__links"> <!--div é usado para incluir conteudo,scripts,informações,criar efeitos de coluna dentro do layout-->
+                    <h2 class="apresentacao__links__subtitulo">Acesse minhas redes:</h2><!--Titulo secundário indicativo-->
+                    <a class="apresentacao__links__navegacao" href="https://instagram.com/photosbyryco">
+                        <img src="/imagens/instagram.png" alt="Logo do instagram">Instagram</a><!--links de redes sociais que funcionam como botões-->
+                    <a class="apresentacao__links__navegacao" href="https://github.com/enricochicot"><!--imagens podem ser colocadas conforme estão aqui-->
+                        <img src="/imagens/github.png" alt="Logo do GitHub">GitHub</a>
+                        <a class="apresentacao__links__navegacao" href="https://www.linkedin.com/in/enricoleite ">
+                            <img src="imagens/linkedin.png" alt="Logo do Linkedin">Linkedin</a>
+                </div>
+        </section>
+            <img class="apresentacao__imagem" src="/imagens/Imagem.png" alt="Foto da Joana Santos programando"><!--img armazenada na pasta e texto autenticador para indicar do que se trata ou tratava a mesma-->
+    </main>
+    <footer class="rodape"><!--Rodapé do site--> 
+        <p>Development by Ryco.</p>
+    </footer>
+</body>
+</html>
